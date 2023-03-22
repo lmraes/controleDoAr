@@ -41,6 +41,9 @@ while continuar == True:
 
     elif (particulasInalaveis_MP10 > 250) and (particulasInalaveisFinas_MP25 > 125) and (ozonio_o3 > 200) and (monoxidoDeCarbono_co > 15) and (dioxidoDeNitrogenio_no2 > 1130) and (DioxidoDeEnxofre_so2 > 800):
         print('\nQualidade N5 - PÉSSIMA\n\tToda a população pode apresentar sérios riscos de manifestações de doenças respiratórias e cardiovasculares. Aumento de mortes prematuras em pessoas de grupos sensíveis.') 
+    
+    else:
+        print("Os valores digitados não se encaixam em nenhuma categoria, verifique os valores e tente novamente.")
 
     continuar = input('\nDeseja continuar? (S/N)    ')
 
@@ -54,6 +57,3 @@ while continuar == True:
         print('\nOpção inválida!\nFinalizando o programa...\n\n')
         break
             
-
-
-    
