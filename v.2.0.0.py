@@ -181,7 +181,7 @@ while True:
             retornaLinha+=1
     if resposta == "N": break
 
-print("\nObrigada por usar este programa. Finalizando...")
+print("\n\nObrigada por usar este programa. Finalizando...\n\n")
 
             
 
