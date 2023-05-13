@@ -22,12 +22,12 @@ while True:
         array = [dadosSelecionados[retornaLinha]]
         try:
             for linha in array:
-                particulasInalaveis_MP10 = int(linha[0])
-                particulasInalaveisFinas_MP25 = int(linha[1])
-                ozonio_o3 = int(linha[2])
-                monoxidoDeCarbono_co = int(linha[3])
-                dioxidoDeNitrogenio_no2 = int(linha[4])
-                dioxidoDeEnxofre_so2 = int(linha[5])
+                particulasInalaveis_MP10 = int(linha[2])
+                particulasInalaveisFinas_MP25 = int(linha[3])
+                ozonio_o3 = int(linha[4])
+                monoxidoDeCarbono_co = int(linha[5])
+                dioxidoDeNitrogenio_no2 = int(linha[6])
+                dioxidoDeEnxofre_so2 = int(linha[7])
         except ValueError:
             print('\nVerifique se os valores digitados são válidos e tente novamente!')
         else:
